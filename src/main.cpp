@@ -32,15 +32,16 @@
 #include <SPI.h>
 #include <WiFi101.h>
 #include <BlynkSimpleMKR1000.h>
+#include "secrets.h"
 
 // You should get Auth Token in the Blynk App.
 // Go to the Project Settings (nut icon).
-char auth[] = "vAaCndeKw0wa5pkL53Tc6Q6E4Gm0t9_-";
+char auth[] = SECRET_AUTH_KEY;
 
 // Your WiFi credentials.
 // Set password to "" for open networks.
-char ssid[] = "M514@unifi";
-char pass[] = "1210EF0712";
+char ssid[] = SECRET_SSID;
+char pass[] = SECRET_PASS;
 
 int sensorPin = A0;
 int sensorValue = 0;
