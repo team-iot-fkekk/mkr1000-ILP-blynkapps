@@ -32,7 +32,7 @@
 #include <SPI.h>
 #include <WiFi101.h>
 #include <BlynkSimpleMKR1000.h>
-#include "secrets.h"
+#include <secrets-example.h>
 
 // You should get Auth Token in the Blynk App.
 // Go to the Project Settings (nut icon).
